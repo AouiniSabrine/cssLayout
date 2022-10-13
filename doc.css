@@ -1,0 +1,296 @@
+*{
+    margin:12px;
+    padding:0px;
+    font-family: Work Sans,Arial,sans-serif;
+    
+  }
+
+.logo-docplanner{
+    width:260px;
+    height:33px;
+  }
+
+
+  header{
+    display:flex;
+    justify-content:space-around;
+    align-items: center
+  }
+
+  ul{
+    display:flex;
+  }
+  header ul li {
+    list-style-type:none;
+    display:flex;
+    padding:0px;
+  }
+  .menu{
+    text-decoration:none;
+    color:#747474;
+  }
+  .item{
+      color:#00b39b;
+        
+  }
+  .menu:hover{
+    color:#00b39b;
+  }
+  .lead__logo{
+  display:block;
+  margin:0 auto
+  }
+  main h1{
+    text-align: center;
+    color:#00b39b;
+  }
+  .intro{
+    display:flex;
+    justify-content:space-between;
+    margin: 0.8em 0;
+    margin-top: 0.8em;
+    margin-right: 0px;
+    margin-bottom: 0.8em;
+    margin-left: 0px;
+    line-height: 1.75;
+    font-weight: 400;
+    padding:50px ;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+  .drop {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .drop {
+    display:none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .midrop:hover + .drop {
+    display: flex
+  }
+  .drop:hover{display: flex;}
+  .card-container{
+    display: flex;
+    justify-content:space-around;
+    padding:0 20px ;
+    flex-grow: 4; /* default 0 */
+    
+  
+  }
+  .tobe {
+    font-size: 2.125rem;
+    color: #ffff;
+}
+  .service1{
+    color: white;
+    background-color: #00b39b;
+    border-radius: 20px;
+     width: 33.33%;
+  }
+  .service2{
+    color: white;
+    background-color: #3d83df;
+     border-radius: 20px;
+    height: 300px;
+    width: 400px;
+  }
+  .service3{
+    color: white;
+    background-color: #1b2734;
+     border-radius: 20px;
+     height: 300px;
+     width: 400px
+  }
+  
+  .style-select{
+    width: 100%;
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      padding: 0 2em 0 0;
+      -webkit-appearance: none;
+      outline: 0;
+      text-transform: none;
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+  .style-select select { 
+    border: 0px;
+    background: transparent;
+    color: #ffff
+    ;
+  }
+
+  .servicesection {
+    display: flex;
+  }
+ select option {
+    color: black;
+ }
+
+
+
+ .brands_logos {
+    align-items:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    width: 100%;}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;}
+    
+
+.brands_logos {
+    list-style: none;
+}
+.brands_logos li {
+    font-size: 1rem;
+    display:inline-block;
+    width: 168px;
+    padding-right: 5px;
+}
+
+.brands_logos li:hover svg {
+    fill: #00b39b;
+}
+
+.brands_logos li svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-top: 10px;
+    fill: #747474;
+}
+.section_br {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.brands {
+    margin: 2.5rem auto 3.125rem;
+}
+
+.brands h1 {
+    font-family: 'Work Sans';
+    color:rgb(0,204,177);
+    width: 20%;
+    font-weight: 100;
+}
+
+.stats {
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 0.625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;}
+
+.grid {
+        margin: 0 -10px;}
+    
+   
+ div {
+        display: block;
+    }
+
+    h1 {
+        font-size: 2.125rem;
+        color: #00b39b;
+    }
+    
+    
+    h1 {
+    
+        margin: 0.67em 0;
+        display: block;
+        font-size: 2em;
+
+        font-weight: bold;
+    }
+    
+   
+    
+  
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+ {  border-top: 1px solid rgba(196,196,196,0.7);
+    text-align: center;
+    color: black;
+    opacity: .7;
+}
+.footer {
+    display: flex;
+    text-align: center;
+}
+.footer p {
+    width: 32%;
+    color: black;
+    opacity: .7;
+    margin-left: 15%;
+    margin-bottom: 0.5%;
+}
+.office {
+    width: 50%;
+    margin-left:-5%;
+    margin-top: 1.2%;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(61,131,223);
+}
+
+
+
+
+
+
+
+
+
+
+
